@@ -14,7 +14,7 @@ Factory 360 is a real-time intelligence platform designed for gas and energy fac
 *   **Key Features**: Real-time alerts (email/Live Dashboard), AI-powered queries via Genie
     
 (Real-time pipeline: Sensors → Event Hub → Stream Analytics → Power BI/Logic App/Databricks)
-![Overview Diagram](pipeline.jpg)
+![Overview Diagram](images/pipeline.jpg)
 
 
 Problem Statement
@@ -55,14 +55,14 @@ Architecture & Components
     
     *   **Power BI**: Live dashboards for monitoring.
 
-    ![Power bi](streaming/live_dashboard1.png)
+    ![Power bi](images/streaming/live_dashboard1.png)
         
     *   **Event Hub (alerts-output-hub)**: Triggers notifications.
         
     *   **Blob Storage (blobarchive)**: Daily append for historical data.
         
 
-![Stream Analytics Outputs](streaming/input_output.png)
+![Stream Analytics Outputs](images/streaming/input_output.png)
 
 ### 3\. Notifications via Logic App
 
@@ -71,9 +71,9 @@ Architecture & Components
 *   Sends high-priority email with details (type, value, location, dashboard link).
     
 
-![Logic App Flow](streaming/logic_app.png)
+![Logic App Flow](images/streaming/logic_app.png)
 
-![Sample Alert Email](streaming/email.png)
+![Sample Alert Email](images/streaming/email.png)
 
 ### 4\. Historical & Analytics Layer (Databricks Medallion Architecture)
 
@@ -86,7 +86,7 @@ Architecture & Components
 
 Automated hourly pipeline ensures fresh data without code duplication.
 
-![Automated Pipeline](Grad_Presentation/8.png)
+![Automated Pipeline](images/Grad_Presentation/8.png)
 
 ### 5\. Intelligent Querying with Genie
 
@@ -97,7 +97,7 @@ Automated hourly pipeline ensures fresh data without code duplication.
 *   Example: 
 
 
-![Genie ](Grad_Presentation/AI/5.png)
+![Genie ](images/Grad_Presentation/AI/5.png)
 
 
 
@@ -134,4 +134,5 @@ Recommendations
     
 *   **Cost**: Autoscale Databricks + Spot instances = 50% savings.
     
+
 
