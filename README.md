@@ -86,7 +86,7 @@ Architecture & Components
 
 Automated hourly pipeline ensures fresh data without code duplication.
 
-![Automated Pipeline](images/8.png)
+![Automated Pipeline](images/eight.png)
 
 ### 5\. Intelligent Querying with Genie
 
@@ -97,7 +97,14 @@ Automated hourly pipeline ensures fresh data without code duplication.
 *   Example: 
 
 
-![Genie ](images/AI/5.png)
+![Genie ](images/AI/five.png)
+
+### 6\. Power Bi Dashboards
+*    Dashboard 1
+![dashboard1](images/power_bi/Dashboard1.png)
+
+*    Dashboard 2
+![dashboard1](images/power_bi/Dashboard2.png)
 
 
 
@@ -134,6 +141,7 @@ Recommendations
     
 *   **Cost**: Autoscale Databricks + Spot instances = 50% savings.
     
+
 
 
 
