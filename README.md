@@ -14,7 +14,7 @@ Factory 360 is a real-time intelligence platform designed for gas and energy fac
 *   **Key Features**: Real-time alerts (email/Live Dashboard), AI-powered queries via Genie
     
 (Real-time pipeline: Sensors → Event Hub → Stream Analytics → Power BI/Logic App/Databricks)
-![Overview Diagram](images/pipeline.jpg)
+![Overview Diagram](pipeline.jpg)
 
 
 Problem Statement
@@ -86,7 +86,7 @@ Architecture & Components
 
 Automated hourly pipeline ensures fresh data without code duplication.
 
-![Automated Pipeline](images/Grad_Presentation/8.png)
+![Automated Pipeline](images/8.png)
 
 ### 5\. Intelligent Querying with Genie
 
@@ -97,7 +97,7 @@ Automated hourly pipeline ensures fresh data without code duplication.
 *   Example: 
 
 
-![Genie ](images/Grad_Presentation/AI/5.png)
+![Genie ](images/AI/5.png)
 
 
 
@@ -134,5 +134,6 @@ Recommendations
     
 *   **Cost**: Autoscale Databricks + Spot instances = 50% savings.
     
+
 
 
